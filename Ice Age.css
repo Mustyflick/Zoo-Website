@@ -1,0 +1,41 @@
+#planung{
+
+float: left;
+width: 2em;
+
+
+}
+
+#titel{
+
+    display:flex;
+    justify-content:center;
+    font-family: "Cursive";
+    background-color: cyan;
+
+}
+
+#eintritt{
+    
+
+    color:red;
+    display:flex;
+    float:inline-end;
+
+}
+
+#zoo{
+    
+ color:blue;
+ float:inline-start;
+    
+   
+ 
+
+
+}
+#footer{
+
+    align-content: flex-end;
+
+}
