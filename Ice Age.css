@@ -1,41 +1,134 @@
-#planung{
 
-float: left;
-width: 2em;
+.card:hover {
+    transform: scale(1.1); 
+    transition: transform 200ms ease;
+}
+.card {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(100, 100, 100, 0.2);
+}   
+.img:hover {
+    transform: scale(1.1); 
+    transition: transform 200ms ease;
+}
+
+
+body{
+    background-color: azure;
+}
+#id{
+
+color: yellow;
+    
+}
+
+#ye{
+
+    font-family: fantasy;
+
+}
+
+.wassup{
+
+display: flex;
+justify-content: center;
+
 
 
 }
 
+
+#a{
+
+    display:flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+}
+
+
+
+#body2 {
+
+    background-color: rgb(236, 246, 246);
+
+
+}
+
+
+.table{
+
+background-color: aliceblue;
+
+}
 #titel{
 
     display:flex;
     justify-content:center;
-    font-family: "Cursive";
+    font-family: fantasy;
     background-color: cyan;
 
 }
+#titel2{
 
-#eintritt{
-    
-
-    color:red;
-    display:flex;
-    float:inline-end;
+    background-color: red;
+    display: flex;
+    font-family: fantasy;
+    justify-content: center;
 
 }
+
+#title2{
+
+    background-color:burlywood;
+    display:flex;
+    font-family: fantasy;
+    justify-content: center;
+}
+
+#titel3 {
+
+    background-color:green;
+    display:flex;
+    font-family: fantasy;
+    justify-content: center;
+
+}
+
 
 #zoo{
     
- color:blue;
- float:inline-start;
-    
-   
- 
+ color:black;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ float:inline-start; 
+ display: flex;
+ justify-content: center;
 
 
 }
+
+#iceage{    
+
+    
+    float:center;
+    
+
+
+}
+
 #footer{
 
-    align-content: flex-end;
+    align-content: end;
+
+}
+
+.pd3{
+    padding: 1%;
+}
+.pd4{
+
+    padding: 50% ;
 
 }
